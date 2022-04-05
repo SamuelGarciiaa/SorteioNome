@@ -15,8 +15,6 @@ function pegarDadosFormulario(){
     const posicaoNomes = gerarNumeroAleatorio(tamanhoArray)
     const nome         = listaNomes[posicaoNomes]
     mostrarResultado(nome)
-
-    textarea.value = ""
     
 }
 // INTERCEPTANDO O CLIQUE / EXECUTANDO FUNÇÃO
